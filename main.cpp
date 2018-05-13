@@ -16,7 +16,7 @@ int main()
     cout << fixed << setprecision(2);
 
     cout << " We are going to have an experiment "<<endl;
-    cout << " 1st experiment results: "<<endl;
+    cout << " 1st experiment results: "<<endl; //test
 
     while( i < EXPER_NO){ //makes sure we increment to 4 for the outer loop
     cout << storeNum[i] << " experiment results "<<endl;
