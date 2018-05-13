@@ -30,10 +30,12 @@ int main()
         }
         for(int k=0;k < TEST_LIMIT;k++){
         //cout << storeEx[k]<<endl;
-            total += storeEx[k];
-            average = total/TEST_LIMIT;
+            total += storeEx[k]; //adds inputed numbers
+
+            average = total/TEST_LIMIT; // calculates average
        }cout << " Average is :" << average <<endl;
-       total = 0;
+
+       total = 0; //resets the total and stops it from being carried over to new loop
     i++;
     }
 
